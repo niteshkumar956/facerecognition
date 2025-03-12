@@ -5,4 +5,4 @@ mtcnn
 keras-facenet
 matplotlib
 numpy
-
+scipy
