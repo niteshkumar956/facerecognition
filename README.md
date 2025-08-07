@@ -43,8 +43,8 @@ FaceRecognition/
    git clone https://github.com/niteshkumar956/FaceRecognition.git
    cd FaceRecognition
 2. (Optional but recommended) Create a virtual environment
-```python3 -m venv venv```
-source venv/bin/activate1
+```python3 -m venv venv`
+source venv/bin/activate1```
 3. On Windows: ``` venv\Scripts\activate```
 #Install dependencies
 ```pip install -r requirements.txt```
@@ -67,7 +67,7 @@ Webcam input
 ---
 🧩 Dependencies
 Listed in ```requirements.txt```.
-Core libraries include:
+-Core libraries include:
 1.opencv-python
 2.numpy
 3.scikit-learn
@@ -75,8 +75,8 @@ Core libraries include:
 5.Any additional supporting libraries
 ---
 📂 Examples
-Sample images for recognition tests are available in example_images/.
-Example outputs are shown in demo/ (annotated image frames and webcam screenshots).
+Sample images for recognition tests are available in ```example_images/```.
+Example outputs are shown in ```demo/```(annotated image frames and webcam screenshots).
 ---
 📈 Results
 **Recognition accuracy: X % on test images
