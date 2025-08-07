@@ -46,7 +46,7 @@ FaceRecognition/
 (Optional but recommended) Create a virtual environment
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies
+#Install dependencies
 pip install -r requirements.txt
 🧠 Usage
 1. Prepare data
@@ -60,7 +60,7 @@ Image file input
 python src/recognize.py --image path/to/test.jpg --model models/recognition_model.pkl
 Webcam input
 python src/recognize.py --webcam 0 --model models/recognition_model.pkl
-🧩 Dependencies
+#🧩 Dependencies
 Listed in requirements.txt. Core libraries include:
 opencv-python
 numpy
