@@ -43,15 +43,15 @@ FaceRecognition/
    git clone https://github.com/niteshkumar956/FaceRecognition.git
    cd FaceRecognition
 2. (Optional but recommended) Create a virtual environment
-python3 -m venv venv
-source venv/bin/activate
-# On Windows:``` venv\Scripts\activate```
+```python3 -m venv venv```
+source venv/bin/activate1
+3. On Windows: ``` venv\Scripts\activate```
 #Install dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 ---
 🧠 Usage
 1. Prepare data
-Place face images in data/raw/, organizing each person's folder by name.
+Place face images in ```data/raw/```, organizing each person's folder by name.
 2. Generate embeddings
 python src/embed.py --input_dir data/raw --output_file data/embeddings/embeddings.pkl
 3. Train classifier
