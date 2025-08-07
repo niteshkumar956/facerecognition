@@ -42,9 +42,10 @@ FaceRecognition/
    ```bash
    git clone https://github.com/niteshkumar956/FaceRecognition.git
    cd FaceRecognition
-(Optional but recommended) Create a virtual environment
+2. (Optional but recommended) Create a virtual environment
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
+# On Windows:``` venv\Scripts\activate```
 #Install dependencies
 pip install -r requirements.txt
 ---
