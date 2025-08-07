@@ -51,24 +51,28 @@ source venv/bin/activate1
 ---
 🧠 Usage
 1. Prepare data
-Place face images in ```data/raw/```, organizing each person's folder by name.
+   Place face images in ```data/raw/```, organizing each person's folder by name.
+---
 2. Generate embeddings
-python src/embed.py --input_dir data/raw --output_file data/embeddings/embeddings.pkl
+```python src/embed.py --input_dir data/raw --output_file data/embeddings/embeddings.pkl```
+---
 3. Train classifier
-python src/train.py --embeddings data/embeddings/embeddings.pkl --model_path models/recognition_model.pkl
+```python src/train.py --embeddings data/embeddings/embeddings.pkl --model_path models/recognition_model.pkl```
+---
 4. Recognize faces
 Image file input
-python src/recognize.py --image path/to/test.jpg --model models/recognition_model.pkl
+```python src/recognize.py --image path/to/test.jpg --model models/recognition_model.pkl```
 Webcam input
-python src/recognize.py --webcam 0 --model models/recognition_model.pkl
+```python src/recognize.py --webcam 0 --model models/recognition_model.pkl```
 ---
-#🧩 Dependencies
-Listed in requirements.txt. Core libraries include:
+🧩 Dependencies
+Listed in ```requirements.txt```. Core libraries include:
 opencv-python
 numpy
 scikit-learn
 face_recognition or tensorflow/keras (for embedding model)
 Any additional supporting libraries
+---
 📂 Examples
 Sample images for recognition tests are available in example_images/.
 Example outputs are shown in demo/ (annotated image frames and webcam screenshots).
@@ -85,8 +89,10 @@ Create a new branch: git checkout -b feature/YourFeatureName
 Commit your changes
 Push to your fork
 Open a Pull Request with details
+---
 🔍 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+---
 🙏 Acknowledgments
 Face detection embedding models based on OpenFace / FaceNet
 Thanks to the open-source community and the creators of support libraries
@@ -95,6 +101,7 @@ Thanks to the open-source community and the creators of support libraries
 For questions or collaborations:
 Nitesh Kumar
 ✉️ niteshkumarr956@gmail.com | LinkedIn
+---
 ✅ Next Steps
 Let me know if you’d like to:
 Customize it with actual directory names and file structure from your repo
