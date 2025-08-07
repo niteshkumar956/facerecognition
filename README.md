@@ -97,9 +97,9 @@ Listed in ```requirements.txt```.
 
 ---
 📈 Results
-Recognition accuracy: X % on test images
-Average embedding generation time: Y ms per face
-(Adjust these metrics based on your actual evaluation results.)**
+- Recognition accuracy: X % on test images
+- Average embedding generation time: Y ms per face
+(Adjust these metrics based on your actual evaluation results.)
 
 ---
 📝 Contributing
@@ -112,7 +112,8 @@ Contributions are welcome! To contribute:
 
 ---
 🔍 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+- This project is licensed under the MIT License.
+- See the LICENSE file for details.
 
 ---
 🙏 Acknowledgments
