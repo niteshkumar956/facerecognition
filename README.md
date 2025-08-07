@@ -43,28 +43,39 @@ FaceRecognition/
    git clone https://github.com/niteshkumar956/FaceRecognition.git
    cd FaceRecognition
 2. (Optional but recommended) Create a virtual environment
-```bash
-python3 -m venv venv`
-source venv/bin/activate1```
+```
+python3 -m venv venv
+source venv/bin/activate1
+```
 4. On Windows: ``` venv\Scripts\activate```
 #Install dependencies
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 ---
 🧠 Usage
 1. Prepare data
    Place face images in ```data/raw/```, organizing each person's folder by name.
 ---
 2. Generate embeddings
-```python src/embed.py --input_dir data/raw --output_file data/embeddings/embeddings.pkl```
+```
+python src/embed.py --input_dir data/raw --output_file data/embeddings/embeddings.pkl
+```
 ---
 3. Train classifier
-```python src/train.py --embeddings data/embeddings/embeddings.pkl --model_path models/recognition_model.pkl```
+```
+python src/train.py --embeddings data/embeddings/embeddings.pkl --model_path models/recognition_model.pkl
+```
 ---
 4. Recognize faces
 Image file input
-```python src/recognize.py --image path/to/test.jpg --model models/recognition_model.pkl```
+```
+python src/recognize.py --image path/to/test.jpg --model models/recognition_model.pkl
+```
 Webcam input
-```python src/recognize.py --webcam 0 --model models/recognition_model.pkl```
+```
+python src/recognize.py --webcam 0 --model models/recognition_model.pkl
+```
 ---
 🧩 Dependencies
 Listed in ```requirements.txt```.
