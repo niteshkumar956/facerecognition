@@ -18,7 +18,7 @@ A simple face recognition system built with Python and OpenCV. Detects and recog
 ---
 
 ## 📁 Project Structure
-
+```
 FaceRecognition/
 ├── data/
 │ ├── raw/
@@ -33,7 +33,7 @@ FaceRecognition/
 │ └── recognize.py
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## ⚙️ Setup & Installation
