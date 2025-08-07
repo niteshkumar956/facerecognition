@@ -80,6 +80,7 @@ Webcam input
 python src/recognize.py --webcam 0 --model models/recognition_model.pkl
 ```
 ---
+
 🧩 Dependencies
 Listed in ```requirements.txt```.
 -Core libraries include:
@@ -88,15 +89,18 @@ Listed in ```requirements.txt```.
 -3.scikit-learn
 -4.face_recognition or tensorflow/keras (for embedding model)
 -5.Any additional supporting libraries
+
 ---
 📂 Examples
 Sample images for recognition tests are available in ```example_images/```.
 Example outputs are shown in ```demo/``` (annotated image frames and webcam screenshots).
+
 ---
 📈 Results
-**Recognition accuracy: X % on test images
+Recognition accuracy: X % on test images
 Average embedding generation time: Y ms per face
 (Adjust these metrics based on your actual evaluation results.)**
+
 ---
 📝 Contributing
 Contributions are welcome! To contribute:
@@ -105,18 +109,22 @@ Create a new branch: git checkout -b feature/YourFeatureName
 Commit your changes
 Push to your fork
 Open a Pull Request with details
+
 ---
 🔍 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 ---
 🙏 Acknowledgments
 Face detection embedding models based on OpenFace / FaceNet
 Thanks to the open-source community and the creators of support libraries
+
 ---
 📬 Contact
 For questions or collaborations:
 Nitesh Kumar
 ✉️ niteshkumarr956@gmail.com | LinkedIn
+
 ---
 ✅ Next Steps
 Let me know if you’d like to:
