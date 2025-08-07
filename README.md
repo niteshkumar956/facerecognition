@@ -74,9 +74,9 @@ Sample images for recognition tests are available in example_images/.
 Example outputs are shown in demo/ (annotated image frames and webcam screenshots).
 ---
 📈 Results
-Recognition accuracy: X % on test images
+**Recognition accuracy: X % on test images
 Average embedding generation time: Y ms per face
-(Adjust these metrics based on your actual evaluation results.)
+(Adjust these metrics based on your actual evaluation results.)**
 ---
 📝 Contributing
 Contributions are welcome! To contribute:
