@@ -1,4 +1,3 @@
-# facerecognition
 # FaceRecognition
 
 A simple face recognition system built with Python and OpenCV. Detects and recognizes faces from images or live webcam feed using pretrained face embedding models and classification algorithms.
@@ -61,6 +60,7 @@ Image file input
 python src/recognize.py --image path/to/test.jpg --model models/recognition_model.pkl
 Webcam input
 python src/recognize.py --webcam 0 --model models/recognition_model.pkl
+---
 #🧩 Dependencies
 Listed in requirements.txt. Core libraries include:
 opencv-python
@@ -71,10 +71,12 @@ Any additional supporting libraries
 📂 Examples
 Sample images for recognition tests are available in example_images/.
 Example outputs are shown in demo/ (annotated image frames and webcam screenshots).
+---
 📈 Results
 Recognition accuracy: X % on test images
 Average embedding generation time: Y ms per face
 (Adjust these metrics based on your actual evaluation results.)
+---
 📝 Contributing
 Contributions are welcome! To contribute:
 Fork the repository
@@ -87,6 +89,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 🙏 Acknowledgments
 Face detection embedding models based on OpenFace / FaceNet
 Thanks to the open-source community and the creators of support libraries
+---
 📬 Contact
 For questions or collaborations:
 Nitesh Kumar
