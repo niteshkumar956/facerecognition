@@ -127,8 +127,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 ✅ Next Steps
-Let me know if you’d like to:
-Customize it with actual directory names and file structure from your repo
-Add badges (e.g. build status, license, Python version)
-Include diagrams or screenshots
-Automate README generation from code
+- Let me know if you’d like to:
+- Customize it with actual directory names and file structure from your repo
+- Add badges (e.g. build status, license, Python version)
+- Include diagrams or screenshots
+- Automate README generation from code
