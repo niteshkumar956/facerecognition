@@ -83,15 +83,15 @@ python src/recognize.py --webcam 0 --model models/recognition_model.pkl
 🧩 Dependencies
 Listed in ```requirements.txt```.
 -Core libraries include:
-1.opencv-python
-2.numpy
-3.scikit-learn
-4.face_recognition or tensorflow/keras (for embedding model)
-5.Any additional supporting libraries
+-1.opencv-python
+-2.numpy
+-3.scikit-learn
+-4.face_recognition or tensorflow/keras (for embedding model)
+-5.Any additional supporting libraries
 ---
 📂 Examples
 Sample images for recognition tests are available in ```example_images/```.
-Example outputs are shown in ```demo/```(annotated image frames and webcam screenshots).
+Example outputs are shown in ```demo/``` (annotated image frames and webcam screenshots).
 ---
 📈 Results
 **Recognition accuracy: X % on test images
